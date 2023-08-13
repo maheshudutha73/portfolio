@@ -26,7 +26,7 @@ const Contact = () => {
           <article className='contact__option'>
             <RiWhatsappFill className='conatct__option-icon'/>
             <h4>Whatsapp</h4>
-            <h5>+91 8885803494</h5>
+            <h5>+91 888****494</h5>
             <a href="https://web.whatsapp.com/" target='_blank'> Send a Message</a>
           </article>
         </div>
