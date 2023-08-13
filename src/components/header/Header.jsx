@@ -8,7 +8,7 @@ import { Typewriter } from 'react-simple-typewriter'
 
 const Header = () => {
   return (
-   <header>
+   <section className='header__section'>
     <div className="container header__container">
       <h5>Hello I'm</h5>
       <h2>Mahesh Udutha</h2>
@@ -29,7 +29,7 @@ const Header = () => {
       </div>
       
     </div>
-   </header>
+   </section>
   ) 
 }
 

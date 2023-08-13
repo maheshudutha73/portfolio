@@ -1,8 +1,4 @@
-header{
-    height: 100vh;
-    padding-top: 4rem;
-    overflow: hidden;
-}
+
 .header__container{
     text-align: center;
     height: 100%;
@@ -23,7 +19,7 @@ flex-direction: column;
 gap: 0.4rem;
 position: absolute;
 left: 0;
-bottom: 3rem;
+bottom: -20rem;
 align-items: center;
 }
 .header__socials::after{
@@ -58,7 +54,7 @@ align-items: center;
     display: flex;
     position: absolute;
     right: 0;
-    bottom: 2rem;
+    bottom: -20rem;
     font-size: 1.8rem;
 }
 /*===================== medium screen ===================*/
@@ -66,24 +62,18 @@ align-items: center;
     .container{
         width: var(--container-width-md);
     }
-    header{
-        height: 68vh;
-               
-    }
    
 }
 /*===================== small screen  ===================*/
 
 @media screen and (max-width:600px) {
-    header{
-        height: 70vh;
-        padding-top: 4rem; 
-    }
-   
     .header__socials,.scroll__down{
         display: none;
     }
 }
 .type{
     color: var(--color-primary);
+}
+.header__section{
+    margin-bottom: 22rem;
 }
